@@ -55,3 +55,68 @@
     height: 475px;
     background-image: url("../images/Circle\ design.svg");
   }
+  .banner-title{
+    font-size: 3.25rem;
+    font-weight: 700;
+    margin: 0px;
+  }
+  .banner-details{
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .btn-preebook{
+    background-color: #E02C6D;
+    border-radius: 41px;
+    padding: 10px 24px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  .fa-solid{
+    margin-left: 8px;
+  }
+
+  /* make responsive for mobile device */
+  @media screen and (max-width:576px) {
+    /* nav section */
+    .navbar,
+    .nav-items ul,
+    .banner{
+      flex-direction: column;
+    }
+    .nav-items ul,
+    .banner{
+      gap: 10px;
+    }
+    .nav-items ul{
+      text-align: center;
+    }
+    .banner-content{
+      margin-top: 30px;
+      text-align: center;
+    }
+    .banner-images{
+      background-image: none;
+      width: 100%;
+    }
+  }
+
+
+  /*responsive for tablet phone*/
+  @media screen and (min-width:577px) and (max-width:992px){
+    .banner{
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+      
+    }
+    .banner-content{
+      margin-top: 30px;
+      text-align: center;
+     
+     
+    }
+    .navbar{
+      flex-direction: column;
+    }
+  }
