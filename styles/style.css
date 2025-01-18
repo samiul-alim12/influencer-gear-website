@@ -4,3 +4,54 @@
     font-family: "Poppins", serif;
     font-style: normal;
   }
+  /* shared style */
+    .headers-color{
+      color: #3A3A3A;
+    }
+
+  /* header section */
+
+  /* nav section */
+  .container{
+    max-width: 1100px;
+    margin: 0px auto;
+  }
+  .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  .nav-items ul{
+    display: flex;
+    gap: 34px;
+  }
+  .nav-item{
+    list-style: none;
+  }
+  .nav-link{
+    text-decoration: none;
+  }
+  .influence{
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  /* banner section */
+  .banner{
+    display: flex;
+    gap: 120px;
+  }
+  .banner-content{
+    max-width: 500px;
+    margin-top: 140px;
+  }
+  .banner-images img{
+    width: 100%;
+  }
+  .banner-images{
+    margin-top: 50px;
+    width: 475px;
+    height: 475px;
+    background-image: url("../images/Circle\ design.svg");
+  }
