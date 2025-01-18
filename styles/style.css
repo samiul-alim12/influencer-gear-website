@@ -75,6 +75,20 @@
   .fa-solid{
     margin-left: 8px;
   }
+/* brand logos section */
+.brand{
+  max-width: 1100px;
+  margin: 100px auto;
+}
+.brand-partner{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 60px;
+}
+
+
+
+
 
   /* make responsive for mobile device */
   @media screen and (max-width:576px) {
@@ -99,8 +113,17 @@
       background-image: none;
       width: 100%;
     }
+
+      /* brand section */
+  .brand-partner{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .brand{
+    margin-top: 70px;
   }
 
+  }
 
   /*responsive for tablet phone*/
   @media screen and (min-width:577px) and (max-width:992px){
@@ -118,5 +141,13 @@
     }
     .navbar{
       flex-direction: column;
+    }
+
+    .brand-partner{
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+    .brand{
+      margin-top: 70px;
     }
   }
